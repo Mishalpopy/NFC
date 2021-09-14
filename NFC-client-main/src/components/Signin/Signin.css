@@ -1,0 +1,60 @@
+.Signin-page-container{
+    box-sizing:  border-box;
+    width: 100vw;
+    max-width: 30rem;
+    margin: auto;
+    padding: 1rem;
+    box-sizing:border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Signin-inputs{
+    width: 100%;
+  }
+  .Signin-btn{
+    display: flex;
+  }
+  .Signin-btn-bak{
+    width :10rem;
+    height :4rem;
+  }
+  .Signin-btn-bak:hover{
+    box-shadow:  10px 10px 20px #7a79799a,-10px -10px 20px #f7f7f7;
+  }
+  .Signin-btn-crt{
+    width :15rem;
+    height :4rem;
+  }
+.Signin-btn-crt:hover{
+    box-shadow:  10px 10px 20px #7a79799a,-10px -10px 20px #f7f7f7;
+  }
+  .resend-otp{
+      justify-content: flex-end;
+  }
+  @media screen and (max-width: 600px) {
+    .Signin-page-container{
+      max-width: 16rem;
+    }
+    .Signin-btn-bak{
+      width :5.33rem;
+    }
+    .Signin-btn-crt{
+      width :8rem;
+    }
+
+  }
+  @media screen and (max-width: 330px) {
+    .Signin-page-container{
+      max-width: 14rem;
+    }
+    .Signin-btn-bak{
+      width :4.66rem;
+
+    }
+    .Signin-btn-crt{
+      width :7rem;
+    }
+  }
+

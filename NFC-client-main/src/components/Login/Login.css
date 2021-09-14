@@ -1,0 +1,54 @@
+  .Login-page-container{
+    box-sizing: border-box;
+    width: 100vw;
+    max-width: 30rem;
+    margin: auto;
+    padding: 1rem;
+    box-sizing:border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Login-inputs{
+    width: 100%;
+  }
+  .log-btn{
+    display: flex;
+  }
+  .log-btn-bak{
+    width :10rem;
+    height :4rem;
+  }
+  .log-btn-crt{
+    width :15rem;
+    height :4rem;
+  }
+  .log-btn-bak:hover{
+    box-shadow:  10px 10px 20px #7a79799a,-10px -10px 20px #f7f7f7;
+  }
+.log-btn-crt:hover{
+    box-shadow:  10px 10px 20px #7a79799a,-10px -10px 20px #f7f7f7;
+  }
+  @media screen and (max-width: 600px) {
+    .Login-page-container{
+      max-width: 16rem;
+    }
+    .log-btn-crt{
+      width :8rem;
+    }
+    .log-btn-bak{
+      width :5.33rem;
+    }
+}
+@media screen and (max-width: 330px) {
+  .Login-page-container{
+    max-width:14rem;
+  }
+  .log-btn-crt{
+    width :7rem;
+  }
+  .log-btn-bak{
+    width :4.66rem;
+  }
+}

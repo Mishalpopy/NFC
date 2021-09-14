@@ -1,0 +1,22 @@
+.s-card{
+    width: fit-content;
+    min-width: 5rem;
+    height: 5rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.s-cardImg{
+    padding-top: .5rem;
+    height: 2rem;
+}
+.user-name{
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    font-size: .8rem;
+}
+.s-card-container{
+    padding: 1.2rem;
+}
